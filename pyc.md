@@ -38,12 +38,14 @@ Links:
 
 Honorable mention 
 
-> A comprehensive and versatile dotfiles manager
-> 
-> Using dotgit will allow you to effortlessly store
-> all your dotfiles in a single git repository. dotgit
-> doesn't only do storage - it also manages your
-> dotfiles between multiple computers and devices.
+~~~
+A comprehensive and versatile dotfiles manager
+
+Using dotgit will allow you to effortlessly store
+all your dotfiles in a single git repository. dotgit
+doesn't only do storage - it also manages your
+dotfiles between multiple computers and devices.
+~~~
 
 Links:
 - [Github](https://github.com/Cube777/dotgit)
@@ -53,7 +55,7 @@ Links:
 
 ## bash-git-prompt
 
-Customizable prompt the proivides a ton of git information
+Customizable prompt the provides a ton of git information
 
 Links:
 - [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt)
@@ -80,7 +82,7 @@ Links:
 
 ## Word Docs/Resumes
 
-creat word docs and resumes usin your favorite
+Create word docs and resumes usin your favorite
 text editors (vi/emacs/nano)
 
 - a bit of markdown
@@ -107,7 +109,44 @@ Links:
 
 ## navigation
 
+bashmarks provides a framework to save delete and
+goto frequented directories
+
+~~~
+Bashmarks is a shell script that allows you to save and jump to commonly used directories. Now supports tab completion.
+Install
+
+    git clone git://github.com/huyng/bashmarks.git
+    cd bashmarks
+    make install
+    source ~/.local/bin/bashmarks.sh from within your ~.bash_profile or ~/.bashrc file
+
+Shell Commands
+
+s <bookmark_name> - Saves the current directory as "bookmark_name"
+g <bookmark_name> - Goes (cd) to the directory associated with "bookmark_name"
+p <bookmark_name> - Prints the directory associated with "bookmark_name"
+d <bookmark_name> - Deletes the bookmark
+l                 - Lists all available bookmarks
+~~~
+
+
+
 ## transfer files
+
+Easy file sharing from the command line with transfer.sh
+
+- Made for use with shell
+- Share files with a URL
+- Upload up to 10 GB
+- Files stored for 14 days
+- For free
+- Encrypt your files
+- Maximize amount of downloads
+
+LINK: 
+- [transfer.sh](https://transfer.sh)
+
 
 # Other Things
 
