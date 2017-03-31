@@ -1,144 +1,119 @@
-DOTFILES
-==================
+# DOTFILES
 
-yadm
--------------------
+## yadm
+
+Yet Another Dotfiles Manager
 
 Yadm dotfile manager on steroids. Alternate file,
 encryption, and bootstrap support
 
-Yadm is a bash wrapper around git
+~~~
+yadm is like having a version of Git, that only
+operates on your dotfiles. If you know how to use
+Git, you already know how to use yadm.
+
+- It doesn’t matter if your current directory is
+  another Git-managed repository
+- You don’t have to move your dotfiles, or have
+  them symlinked from another location.
+- yadm automatically inherits all of Git’s features,
+  allowing you to branch, merge, rebase, use submodules, etc
+~~~
+
+Links:
+- [Home Page](https://thelocehiliosan.github.io/yadm/)
+- [Github](https://github.com/TheLocehiliosan/yadm)
 
 
-dotbot
--------------------
+## dotbot
 
 Dotbot slightly different. Currently no alternate
 file or encryption support. Great for basic needs
 encryption, and bootstrap support
 
-dotgit
--------------------
+Links:
+- [Github](https://github.com/anishathalye/dotbot)
+
+## dotgit
 
 Honorable mention 
 
-file or encryption support. Great for basic needs
-encryption, and bootstrap support
+> A comprehensive and versatile dotfiles manager
+> 
+> Using dotgit will allow you to effortlessly store
+> all your dotfiles in a single git repository. dotgit
+> doesn't only do storage - it also manages your
+> dotfiles between multiple computers and devices.
+
+Links:
+- [Github](https://github.com/Cube777/dotgit)
 
 
-~~~
+# Development
+
+## bash-git-prompt
+
+Customizable prompt the proivides a ton of git information
+
+Links:
+- [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt)
 
 
-First Level Header
-==================
+## bash-git-prompt
 
-Second Level Header
--------------------
+![bash git prompt](https://github.com/magicmonty/bash-git-prompt/raw/master/gitprompt.png)
 
-This is a simple paragraph of text, written in a
-plain text file and flown with fixed 50 characters
-per line, like a plaintext email.
+## Liquid Prompt
 
-You can also write _emphasis_, or **strong**
-emphasis, or even ***double-emphasis*** in your
-text.
+Liquid Prompt gives you a nicely displayed prompt
+with useful information when you need it. It shows
+you what you need when you need it. You will notice
+what changes when it changes, saving time and
+frustration. You can even use it with your favorite
+shell – Bash or zsh.
 
-## Blockquote Markup
+Links:
+- [Liquid Prompt](https://github.com/nojhan/liquidprompt)
 
-~~~
-## An alternative way to mark 2nd Level Headers
+## Liquid Prompt
+![bash git prompt](https://camo.githubusercontent.com/945fb4cf2370746492805f5b8fbc0c3c462e486f/68747470733a2f2f7261772e6769746875622e636f6d2f6e6f6a68616e2f6c697175696470726f6d70742f6d61737465722f64656d6f2e706e67)
 
-> This is a blockquote. You can write entire paragraphs
-> like that. Again, this is very similar to how emails
-> are formatted and written.
-> Consider markdown inspired by plain-text email.
->
-> And some more text in this blockquote, of course you
-> can again use _emphasis_, or **strong** emphasis, or
-> even ***double-emphasis*** in your text. But wait,
-> there's more!
->
-~~~
+## Word Docs/Resumes
 
-## An alternative way to mark 2nd Level Headers
+creat word docs and resumes usin your favorite
+text editors (vi/emacs/nano)
 
-> This is a blockquote. You can write entire paragraphs
-> like that. Again, this is very similar to how emails
-> are formatted and written.
-> Consider markdown inspired by plain-text email.
->
-> And some more text in this blockquote, of course you
-> can again use _emphasis_, or **strong** emphasis, or
-> even ***double-emphasis*** in your text. But wait,
-> there's more!
->
+- a bit of markdown
+- pandoc
+- pandoc-resume
 
-## List Markup
+Links:
+- [Pandoc](http://pandoc.org)
+- [Pandoc-Resume](https://mszep.github.io/pandoc_resume/)
 
-~~~
-## Lists
 
-Unordered (bulleted) lists use either
-asterisks, plusses, or hyphens (*, +,
-and -) interchangeably as list markers:
+## Presentation
 
-* item one
-* item two
-+ item three
-- item four
-~~~
+create ppt/odp presentations text editors (vi/emacs/nano)
 
-## Lists
+- a bit of markdown
+- odpdown
 
-Unordered (bulleted) lists use either
-asterisks, plusses, or hyphens (*, +,
-and -) interchangeably as list markers:
+Links:
+- [odpdown](https://github.com/thorstenb/odpdown)
 
-* item one
-* item two
-+ item three
-- item four
 
-## Nested List Markup
+# Utilities
 
-~~~
-## Nested Lists
+## navigation
 
-Nest lists by indenting subordinate items:
+## transfer files
 
-* item one
-  - item one.one
-  * item one.two
-+ item three
-- item four
-~~~
+# Other Things
 
-## Nested Lists
+## google search
 
-Nest lists by indenting subordinate items:
+## life organization
 
-* item one
-  - item one.one
-  * item one.two
-+ item three
-- item four
+## directory based aliases
 
-## Hyperlink Markup
-
-~~~
-## Links
-
-This is [an example](http://example.com/ "Title") inline link.
-
-This is [an example][1] reference-style link.
-
-[1]: http://example.com/  "Optional Title Here"
-~~~
-
-## Links
-
-This is [an example](http://example.com/ "Title") inline link.
-
-This is [an example][1] reference-style link.
-
-[1]: http://example.com/  "Optional Title Here"
