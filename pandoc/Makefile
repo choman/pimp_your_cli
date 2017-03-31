@@ -5,14 +5,15 @@ MARKDOWN=\
 PANDOC?=pandoc
 
 .PHONY: default
-default: $(patsubst %.md,%.pdf,$(MARKDOWN))
+default: $(patsubst %.md,%.doc,$(MARKDOWN)) $(patsubst %.md,%.docx,$(MARKDOWN))
 
 .PHONY: clean
 clean:
-	rm $(patsubst %.md,%.pdf,$(MARKDOWN)) $(patsubst %.md,%.odp,$(MARKDOWN))
+	rm $(patsubst %.md,%.doc,$(MARKDOWN)) $(patsubst %.md,%.docx,$(MARKDOWN))
 
 %.doc : %.md Makefile
-	$(PANDOC) -s -o %.doc $@
+	$(PANDOC) -s -o $@ $<
 
-%.pdf : %.doc
-	$(PANDOC) -s -o %.pdf $@
+%.docx : %.md Makefile
+	$(PANDOC) -s -o $@ $<
+
