@@ -3,7 +3,9 @@
 ## yadm
 
 Yet Another Dotfiles Manager
+~~~~
 
+~~~~
 Yadm dotfile manager on steroids. Alternate file,
 encryption, and bootstrap support
 
@@ -20,6 +22,9 @@ Git, you already know how to use yadm.
   allowing you to branch, merge, rebase, use submodules, etc
 ~~~
 
+~~~
+
+~~~
 Links:
 - [Home Page](https://thelocehiliosan.github.io/yadm/)
 - [Github](https://github.com/TheLocehiliosan/yadm)
