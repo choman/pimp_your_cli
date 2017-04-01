@@ -153,7 +153,9 @@ LINK:
 - [transfer.sh](https://transfer.sh)
 
 
-# Other Things
+# Other CLI Things
+
+## cheat
 
 ## google search
 
