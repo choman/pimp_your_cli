@@ -11,15 +11,16 @@ encryption, and bootstrap support
 
 ~~~
 yadm is like having a version of Git, that only
-operates on your dotfiles. If you know how to use
-Git, you already know how to use yadm.
+operates on your dotfiles. If you know how to
+use Git, you already know how to use yadm.
 
-- It doesn’t matter if your current directory is
-  another Git-managed repository
+- It doesn’t matter if your current directory
+  is another Git-managed repository
 - You don’t have to move your dotfiles, or have
   them symlinked from another location.
-- yadm automatically inherits all of Git’s features,
-  allowing you to branch, merge, rebase, use submodules, etc
+- yadm automatically inherits all of Git’s
+  features, allowing you to branch, merge, rebase, use
+  submodules, etc
 ~~~
 
 ~~~
@@ -33,8 +34,8 @@ Links:
 ## dotbot
 
 Dotbot slightly different. Currently no alternate
-file or encryption support. Great for basic needs
-encryption, and bootstrap support
+file or encryption support. Great for basic needs.
+Currently encryption and bootstrap are not supported
 
 Links:
 - [Github](https://github.com/anishathalye/dotbot)
@@ -46,10 +47,11 @@ Honorable mention
 ~~~
 A comprehensive and versatile dotfiles manager
 
-Using dotgit will allow you to effortlessly store
-all your dotfiles in a single git repository. dotgit
-doesn't only do storage - it also manages your
-dotfiles between multiple computers and devices.
+Using dotgit will allow you to effortlessly
+store all your dotfiles in a single git
+repository. dotgit doesn't only do storage -
+it also manages your dotfiles between multiple
+computers and devices.  
 ~~~
 
 Links:
@@ -60,7 +62,8 @@ Links:
 
 ## bash-git-prompt
 
-Customizable prompt the provides a ton of git information
+Customizable prompt the provides a ton of git
+information
 
 Links:
 - [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt)
@@ -73,11 +76,11 @@ Links:
 ## Liquid Prompt
 
 Liquid Prompt gives you a nicely displayed prompt
-with useful information when you need it. It shows
-you what you need when you need it. You will notice
-what changes when it changes, saving time and
-frustration. You can even use it with your favorite
-shell – Bash or zsh.
+with useful information when you need it. It
+shows you what you need when you need it. You
+will notice what changes when it changes, saving
+time and frustration. You can even use it with
+your favorite shell – Bash or zsh.
 
 Links:
 - [Liquid Prompt](https://github.com/nojhan/liquidprompt)
@@ -114,11 +117,14 @@ Links:
 
 ## navigation
 
-bashmarks provides a framework to save delete and
-goto frequented directories
+bashmarks provides a framework to save delete
+and goto frequented directories
 
 ~~~
-Bashmarks is a shell script that allows you to save and jump to commonly used directories. Now supports tab completion.
+Bashmarks is a shell script that allows you to
+save and jump to commonly used directories. Now
+supports tab completion.  
+
 Install
 
     git clone git://github.com/huyng/bashmarks.git
@@ -133,13 +139,15 @@ g <bookmark_name> - Goes (cd) to the directory associated with "bookmark_name"
 p <bookmark_name> - Prints the directory associated with "bookmark_name"
 d <bookmark_name> - Deletes the bookmark
 l                 - Lists all available bookmarks
+
 ~~~
 
 
 
 ## transfer files
 
-Easy file sharing from the command line with transfer.sh
+Easy file sharing from the command line with
+transfer.sh
 
 - Made for use with shell
 - Share files with a URL
@@ -157,9 +165,61 @@ LINK:
 
 ## cheat
 
+cheat allows you to create and view interactive
+cheatsheets on the command-line. It was designed
+to help remind *nix system administrators of
+options for commands that they use frequently,
+but not frequently enough to remember
+
+LINKS:
+- [GITHUB](https://github.com/chrisallenlane/cheat)
+
 ## google search
+
+googler is a power tool to Google (Web & News)
+and Google Site Search from the command-line. It
+shows the title, URL and abstract for each
+result, which can be directly opened in a browser
+from the terminal. Results are fetched in pages
+(with page navigation). Supports sequential
+searches in a single googler instance
+
+LINKS:
+- [GITHUB](https://github.com/jarun/googler)
+
+## the Ultminate VIM Distro
+
+Turn VIM into an awesome IDE
+
+LINKS:
+- [HOME](http://vim.spf13.com/)
+- [GITHUB](https://github.com/spf13/spf13-vim)
+
 
 ## life organization
 
+## task warrior stuff
+
 ## directory based aliases
+
+
+## vimarks aliases
+
+## teleconsole
+
+Heard of teamviewer, think that but for the
+console
+
+Teleconsole is a free service to share your
+terminal session with people you trust. Your
+friends can join via a command line via SSH
+or via their browser over HTTPS. Use this to
+ask for help or to connect to your own devices
+sitting behind NAT.
+
+
+
+LINKS:
+- [HOME](https://www.teleconsole.com/)
+- [GITHUB](https://github.com/gravitational/teleconsole)
 
