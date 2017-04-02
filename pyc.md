@@ -207,7 +207,7 @@ LINKS:
 
 ## teleconsole
 
-Heard of teamviewer, think that but for the
+Heard of teamviewer, think that, but for the
 console
 
 Teleconsole is a free service to share your
