@@ -196,9 +196,27 @@ LINKS:
 - [GITHUB](https://github.com/spf13/spf13-vim)
 
 
-## life organization
 
 ## task warrior stuff
+
+## life organization
+
+Org Mode - Organize Your Life In Plain Text!
+
+- Text outlining and task management for Vim based
+- on Emacs’ Org-Mode.
+
+- The idea for this plugin was born by listening
+to the Floss Weekly podcast introducing Emacs
+Org-Mode. Org-Mode has a lot of strong features
+like folding, views (sparse tree) and scheduling
+of tasks. These are completed by hyperlinks,
+tags, todo states, priorities aso.
+
+
+LINKS:
+- [Emacs OrgMode](http://orgmode.org/)
+- [GITHUB](https://github.com/jceb/vim-orgmode)
 
 ## directory based aliases
 
