@@ -30,6 +30,8 @@ Links:
 - [Home Page](https://thelocehiliosan.github.io/yadm/)
 - [Github](https://github.com/TheLocehiliosan/yadm)
 
+---
+
 
 ## dotbot
 
@@ -40,6 +42,7 @@ Currently encryption and bootstrap are not supported
 Links:
 - [Github](https://github.com/anishathalye/dotbot)
 
+---
 ## dotgit
 
 Honorable mention 
@@ -58,8 +61,10 @@ Links:
 - [Github](https://github.com/Cube777/dotgit)
 
 
+---
 # Development
 
+---
 ## bash-git-prompt
 
 Customizable prompt the provides a ton of git
@@ -69,10 +74,12 @@ Links:
 - [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt)
 
 
+---
 ## bash-git-prompt
 
 ![bash git prompt](https://github.com/magicmonty/bash-git-prompt/raw/master/gitprompt.png)
 
+---
 ## Liquid Prompt
 
 Liquid Prompt gives you a nicely displayed prompt
@@ -85,9 +92,11 @@ your favorite shell – Bash or zsh.
 Links:
 - [Liquid Prompt](https://github.com/nojhan/liquidprompt)
 
+---
 ## Liquid Prompt
 ![bash git prompt](https://camo.githubusercontent.com/945fb4cf2370746492805f5b8fbc0c3c462e486f/68747470733a2f2f7261772e6769746875622e636f6d2f6e6f6a68616e2f6c697175696470726f6d70742f6d61737465722f64656d6f2e706e67)
 
+---
 ## Word Docs/Resumes
 
 Create word docs and resumes usin your favorite
@@ -102,6 +111,7 @@ Links:
 - [Pandoc-Resume](https://mszep.github.io/pandoc_resume/)
 
 
+---
 ## Presentation
 
 create ppt/odp presentations text editors (vi/emacs/nano)
@@ -113,8 +123,10 @@ Links:
 - [odpdown](https://github.com/thorstenb/odpdown)
 
 
+---
 # Utilities
 
+---
 ## navigation
 
 bashmarks provides a framework to save delete
@@ -144,6 +156,7 @@ l                 - Lists all available bookmarks
 
 
 
+---
 ## transfer files
 
 Easy file sharing from the command line with
@@ -161,8 +174,10 @@ LINK:
 - [transfer.sh](https://transfer.sh)
 
 
+---
 # Other CLI Things
 
+---
 ## cheat
 
 cheat allows you to create and view interactive
@@ -174,6 +189,7 @@ but not frequently enough to remember
 LINKS:
 - [GITHUB](https://github.com/chrisallenlane/cheat)
 
+---
 ## google search
 
 googler is a power tool to Google (Web & News)
@@ -187,6 +203,7 @@ searches in a single googler instance
 LINKS:
 - [GITHUB](https://github.com/jarun/googler)
 
+---
 ## the Ultminate VIM Distro
 
 Turn VIM into an awesome IDE
@@ -197,8 +214,10 @@ LINKS:
 
 
 
+---
 ## task warrior stuff
 
+---
 ## life organization
 
 Org Mode - Organize Your Life In Plain Text!
@@ -218,11 +237,14 @@ LINKS:
 - [Emacs OrgMode](http://orgmode.org/)
 - [GITHUB](https://github.com/jceb/vim-orgmode)
 
+---
 ## directory based aliases
 
 
+---
 ## vimarks aliases
 
+---
 ## teleconsole
 
 Heard of teamviewer, think that, but for the
