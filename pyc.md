@@ -122,6 +122,12 @@ create ppt/odp presentations text editors (vi/emacs/nano)
 Links:
 - [odpdown](https://github.com/thorstenb/odpdown)
 
+---
+## Presentation (Console)
+
+Or pipe your md file straight into mdp for console
+based presentation
+
 
 ---
 # Utilities
