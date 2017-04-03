@@ -213,12 +213,20 @@ LINKS:
 ## the Ultminate VIM Distro
 
 Turn VIM into an awesome IDE
+~~~
+
+
+
+
+
+
+
+
+~~~
 
 LINKS:
 - [HOME](http://vim.spf13.com/)
 - [GITHUB](https://github.com/spf13/spf13-vim)
-
-
 
 ---
 ## task warrior stuff
