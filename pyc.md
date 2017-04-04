@@ -80,6 +80,15 @@ Links:
 ![bash git prompt](https://github.com/magicmonty/bash-git-prompt/raw/master/gitprompt.png)
 
 ---
+## git-open
+
+Type `git open` to open the GitHub page or
+website for a repository in your browser.
+
+LINKS:
+- [GITHUB](https://github.com/paulirish/git-open)
+
+---
 ## Liquid Prompt
 
 Liquid Prompt gives you a nicely displayed prompt
