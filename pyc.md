@@ -128,6 +128,13 @@ Links:
 Or pipe your md file straight into mdp for console
 based presentation
 
+---
+## Presentation (html5)
+
+Or landslide it into a html5 presentation
+
+LINKS:
+- [GITHUB](https://github.com/adamzap/landslide)
 
 ---
 # Utilities
