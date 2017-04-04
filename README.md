@@ -3,7 +3,7 @@
 working on the coolest presentation ever
 
 
-## Requirements
+## Requirements (well at least for ubuntu)
 
 odpdown:
 - python-mistune
