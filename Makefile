@@ -4,17 +4,22 @@ MARKDOWN=\
 
 ODPDOWN?=odpdown
 
+OUTPUT=\
+	$(patsubst %.md,%.pdf,$(MARKDOWN))  \
+	$(patsubst %.md,%.odp,$(MARKDOWN))  \
+	$(patsubst %.md,%.ppt,$(MARKDOWN))  \
+	$(patsubst %.md,%.pptx,$(MARKDOWN)) \
+	$(patsubst %.md,%.html,$(MARKDOWN))
+
 
 #
 # If not keeping the odp, remove the odp option from default
 .PHONY: default
-default: $(patsubst %.md,%.pdf,$(MARKDOWN)) $(patsubst %.md,%.odp,$(MARKDOWN)) \
-         $(patsubst %.md,%.ppt,$(MARKDOWN)) $(patsubst %.md,%.pptx,$(MARKDOWN))
+default: $(OUTPUT)
 
 .PHONY: clean
 clean:
-	rm $(patsubst %.md,%.pdf,$(MARKDOWN)) $(patsubst %.md,%.odp,$(MARKDOWN)) \
-           $(patsubst %.md,%.ppt,$(MARKDOWN)) $(patsubst %.md,%.pptx,$(MARKDOWN))
+	rm $(OUTPUT)
 
 
 %.odp : %.md discreet-dark-pyc.odp Makefile
@@ -29,3 +34,6 @@ clean:
 
 %.pdf : %.odp
 	libreoffice --headless --convert-to pdf:impress_pdf_Export $<
+
+%.html : %.md
+	landslide -d $@ $<
