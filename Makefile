@@ -36,6 +36,4 @@ clean:
 	libreoffice --headless --convert-to pdf:impress_pdf_Export $<
 
 %.html : %.md
-##	cat head.md $< > /tmp/out.md
-##	landslide -d $@ /tmp/out.md
 	landslide -c landslide.cfg
