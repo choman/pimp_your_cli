@@ -28,14 +28,14 @@
     <title>None</title>
     <!-- Styles -->
     
-    <link rel="stylesheet" media="print" href="landslide/themes/default/css/print.css">
-    <link rel="stylesheet" media="screen, projection" href="landslide/themes/default/css/screen.css">
+    <link rel="stylesheet" media="print" href="../../../usr/local/lib/python2.7/dist-packages/landslide-1.1.3-py2.7.egg/landslide/themes/default/css/print.css">
+    <link rel="stylesheet" media="screen, projection" href="../../../usr/local/lib/python2.7/dist-packages/landslide-1.1.3-py2.7.egg/landslide/themes/default/css/screen.css">
     
     
     <!-- /Styles -->
     <!-- Javascripts -->
     
-    <script type="text/javascript" src="landslide/themes/default/js/slides.js"></script>
+    <script type="text/javascript" src="../../../usr/local/lib/python2.7/dist-packages/landslide-1.1.3-py2.7.egg/landslide/themes/default/js/slides.js"></script>
     
     
     
@@ -72,29 +72,7 @@
             </aside>
             
             <aside class="page_number">
-              1/2
-            </aside>
-          </footer>
-        </div>
-      </div>
-      
-      <!-- slide source:  -->
-      <div class="slide-wrapper">
-        <div class="slide slide-">
-          <div class="inner">
-            
-            
-          </div>
-          <div class="presenter_notes">
-            <header><h1>Presenter Notes</h1></header>
-            <section>
-            
-            </section>
-          </div>
-          <footer>
-            
-            <aside class="page_number">
-              /2
+              1/26
             </aside>
           </footer>
         </div>
@@ -116,113 +94,23 @@ Yadm dotfile manager on steroids. Alternate file,
 encryption, and bootstrap support</p>
 <p>~~~
 yadm is like having a version of Git, that only
-operates on your dotfiles. If you know how to use
-Git, you already know how to use yadm.</p>
+operates on your dotfiles. If you know how to
+use Git, you already know how to use yadm.</p>
 <ul>
-<li>It doesn’t matter if your current directory is
-  another Git-managed repository</li>
+<li>It doesn’t matter if your current directory
+  is another Git-managed repository</li>
 <li>You don’t have to move your dotfiles, or have
   them symlinked from another location.</li>
-<li>yadm automatically inherits all of Git’s features,
-  allowing you to branch, merge, rebase, use submodules, etc
+<li>yadm automatically inherits all of Git’s
+  features, allowing you to branch, merge, rebase, use
+  submodules, etc
 ~~~</li>
 </ul>
 <p>~~~</p>
 <p>~~~
 Links:
 - <a href="https://thelocehiliosan.github.io/yadm/">Home Page</a>
-- <a href="https://github.com/TheLocehiliosan/yadm">Github</a></p>
-<h2>dotbot</h2>
-<p>Dotbot slightly different. Currently no alternate
-file or encryption support. Great for basic needs
-encryption, and bootstrap support</p>
-<p>Links:
-- <a href="https://github.com/anishathalye/dotbot">Github</a></p>
-<h2>dotgit</h2>
-<p>Honorable mention </p>
-<p>~~~
-A comprehensive and versatile dotfiles manager</p>
-<p>Using dotgit will allow you to effortlessly store
-all your dotfiles in a single git repository. dotgit
-doesn't only do storage - it also manages your
-dotfiles between multiple computers and devices.
-~~~</p>
-<p>Links:
-- <a href="https://github.com/Cube777/dotgit">Github</a></p>
-<h1>Development</h1>
-<h2>bash-git-prompt</h2>
-<p>Customizable prompt the provides a ton of git information</p>
-<p>Links:
-- <a href="https://github.com/magicmonty/bash-git-prompt">bash-git-prompt</a></p>
-<h2>bash-git-prompt</h2>
-<p><img alt="bash git prompt" src="https://github.com/magicmonty/bash-git-prompt/raw/master/gitprompt.png" /></p>
-<h2>Liquid Prompt</h2>
-<p>Liquid Prompt gives you a nicely displayed prompt
-with useful information when you need it. It shows
-you what you need when you need it. You will notice
-what changes when it changes, saving time and
-frustration. You can even use it with your favorite
-shell – Bash or zsh.</p>
-<p>Links:
-- <a href="https://github.com/nojhan/liquidprompt">Liquid Prompt</a></p>
-<h2>Liquid Prompt</h2>
-<p><img alt="bash git prompt" src="https://camo.githubusercontent.com/945fb4cf2370746492805f5b8fbc0c3c462e486f/68747470733a2f2f7261772e6769746875622e636f6d2f6e6f6a68616e2f6c697175696470726f6d70742f6d61737465722f64656d6f2e706e67" /></p>
-<h2>Word Docs/Resumes</h2>
-<p>Create word docs and resumes usin your favorite
-text editors (vi/emacs/nano)</p>
-<ul>
-<li>a bit of markdown</li>
-<li>pandoc</li>
-<li>pandoc-resume</li>
-</ul>
-<p>Links:
-- <a href="http://pandoc.org">Pandoc</a>
-- <a href="https://mszep.github.io/pandoc_resume/">Pandoc-Resume</a></p>
-<h2>Presentation</h2>
-<p>create ppt/odp presentations text editors (vi/emacs/nano)</p>
-<ul>
-<li>a bit of markdown</li>
-<li>odpdown</li>
-</ul>
-<p>Links:
-- <a href="https://github.com/thorstenb/odpdown">odpdown</a></p>
-<h1>Utilities</h1>
-<h2>navigation</h2>
-<p>bashmarks provides a framework to save delete and
-goto frequented directories</p>
-<p>~~~
-Bashmarks is a shell script that allows you to save and jump to commonly used directories. Now supports tab completion.
-Install</p>
-<pre><code>git clone git://github.com/huyng/bashmarks.git
-cd bashmarks
-make install
-source ~/.local/bin/bashmarks.sh from within your ~.bash_profile or ~/.bashrc file
-</code></pre>
-<p>Shell Commands</p>
-<p>s <bookmark_name> - Saves the current directory as "bookmark_name"
-g <bookmark_name> - Goes (cd) to the directory associated with "bookmark_name"
-p <bookmark_name> - Prints the directory associated with "bookmark_name"
-d <bookmark_name> - Deletes the bookmark
-l                 - Lists all available bookmarks
-~~~</p>
-<h2>transfer files</h2>
-<p>Easy file sharing from the command line with transfer.sh</p>
-<ul>
-<li>Made for use with shell</li>
-<li>Share files with a URL</li>
-<li>Upload up to 10 GB</li>
-<li>Files stored for 14 days</li>
-<li>For free</li>
-<li>Encrypt your files</li>
-<li>Maximize amount of downloads</li>
-</ul>
-<p>LINK: 
-- <a href="https://transfer.sh">transfer.sh</a></p>
-<h1>Other CLI Things</h1>
-<h2>cheat</h2>
-<h2>google search</h2>
-<h2>life organization</h2>
-<h2>directory based aliases</h2></section>
+- <a href="https://github.com/TheLocehiliosan/yadm">Github</a></p></section>
             
           </div>
           <div class="presenter_notes">
@@ -238,7 +126,836 @@ l                 - Lists all available bookmarks
             </aside>
             
             <aside class="page_number">
-              2/2
+              2/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-3">
+          <div class="inner">
+            
+            <header><h2>dotbot</h2></header>
+            
+            
+            <section><p>Dotbot slightly different. Currently no alternate
+file or encryption support. Great for basic needs.
+Currently encryption and bootstrap are not supported</p>
+<p>Links:
+- <a href="https://github.com/anishathalye/dotbot">Github</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              3/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-4">
+          <div class="inner">
+            
+            <header><h2>dotgit</h2></header>
+            
+            
+            <section><p>Honorable mention </p>
+<p>~~~
+A comprehensive and versatile dotfiles manager</p>
+<p>Using dotgit will allow you to effortlessly
+store all your dotfiles in a single git
+repository. dotgit doesn't only do storage -
+it also manages your dotfiles between multiple
+computers and devices.<br />
+~~~</p>
+<p>Links:
+- <a href="https://github.com/Cube777/dotgit">Github</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              4/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-5">
+          <div class="inner">
+            
+            <header><h1>Development</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              5/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-6">
+          <div class="inner">
+            
+            <header><h2>bash-git-prompt</h2></header>
+            
+            
+            <section><p>Customizable prompt the provides a ton of git
+information</p>
+<p>Links:
+- <a href="https://github.com/magicmonty/bash-git-prompt">bash-git-prompt</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              6/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-7">
+          <div class="inner">
+            
+            <header><h2>bash-git-prompt</h2></header>
+            
+            
+            <section><p><img alt="bash git prompt" src="https://github.com/magicmonty/bash-git-prompt/raw/master/gitprompt.png" /></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              7/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-8">
+          <div class="inner">
+            
+            <header><h2>git-open</h2></header>
+            
+            
+            <section><p>Type <code>git open</code> to open the GitHub page or
+website for a repository in your browser.</p>
+<p>LINKS:
+- <a href="https://github.com/paulirish/git-open">GITHUB</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              8/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-9">
+          <div class="inner">
+            
+            <header><h2>Liquid Prompt</h2></header>
+            
+            
+            <section><p>Liquid Prompt gives you a nicely displayed prompt
+with useful information when you need it. It
+shows you what you need when you need it. You
+will notice what changes when it changes, saving
+time and frustration. You can even use it with
+your favorite shell – Bash or zsh.</p>
+<p>Links:
+- <a href="https://github.com/nojhan/liquidprompt">Liquid Prompt</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              9/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-10">
+          <div class="inner">
+            
+            <header><h2>Liquid Prompt</h2></header>
+            
+            
+            <section><p><img alt="bash git prompt" src="https://camo.githubusercontent.com/945fb4cf2370746492805f5b8fbc0c3c462e486f/68747470733a2f2f7261772e6769746875622e636f6d2f6e6f6a68616e2f6c697175696470726f6d70742f6d61737465722f64656d6f2e706e67" /></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              10/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-11">
+          <div class="inner">
+            
+            <header><h2>Word Docs/Resumes</h2></header>
+            
+            
+            <section><p>Create word docs and resumes usin your favorite
+text editors (vi/emacs/nano)</p>
+<ul>
+<li>a bit of markdown</li>
+<li>pandoc</li>
+<li>pandoc-resume</li>
+</ul>
+<p>Links:
+- <a href="http://pandoc.org">Pandoc</a>
+- <a href="https://mszep.github.io/pandoc_resume/">Pandoc-Resume</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              11/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-12">
+          <div class="inner">
+            
+            <header><h2>Presentation</h2></header>
+            
+            
+            <section><p>create ppt/odp presentations text editors (vi/emacs/nano)</p>
+<ul>
+<li>a bit of markdown</li>
+<li>odpdown</li>
+</ul>
+<p>Links:
+- <a href="https://github.com/thorstenb/odpdown">odpdown</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              12/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-13">
+          <div class="inner">
+            
+            <header><h2>Presentation (Console)</h2></header>
+            
+            
+            <section><p>Or pipe your md file straight into mdp for console
+based presentation</p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              13/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-14">
+          <div class="inner">
+            
+            <header><h2>Presentation (html5)</h2></header>
+            
+            
+            <section><p>Or landslide it into a html5 presentation</p>
+<p>LINKS:
+- <a href="https://github.com/adamzap/landslide">GITHUB</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              14/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-15">
+          <div class="inner">
+            
+            <header><h1>Utilities</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              15/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-16">
+          <div class="inner">
+            
+            <header><h2>navigation</h2></header>
+            
+            
+            <section><p>bashmarks provides a framework to save delete
+and goto frequented directories</p>
+<p>~~~
+Bashmarks is a shell script that allows you to
+save and jump to commonly used directories. Now
+supports tab completion.  </p>
+<p>Install</p>
+<pre><code>git clone git://github.com/huyng/bashmarks.git
+cd bashmarks
+make install
+source ~/.local/bin/bashmarks.sh from within your ~.bash_profile or ~/.bashrc file
+</code></pre>
+<p>Shell Commands</p>
+<p>s <bookmark_name> - Saves the current directory as "bookmark_name"
+g <bookmark_name> - Goes (cd) to the directory associated with "bookmark_name"
+p <bookmark_name> - Prints the directory associated with "bookmark_name"
+d <bookmark_name> - Deletes the bookmark
+l                 - Lists all available bookmarks</p>
+<p>~~~</p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              16/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-17">
+          <div class="inner">
+            
+            <header><h2>transfer files</h2></header>
+            
+            
+            <section><p>Easy file sharing from the command line with
+transfer.sh</p>
+<ul>
+<li>Made for use with shell</li>
+<li>Share files with a URL</li>
+<li>Upload up to 10 GB</li>
+<li>Files stored for 14 days</li>
+<li>For free</li>
+<li>Encrypt your files</li>
+<li>Maximize amount of downloads</li>
+</ul>
+<p>LINK: 
+- <a href="https://transfer.sh">transfer.sh</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              17/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-18">
+          <div class="inner">
+            
+            <header><h1>Other CLI Things</h1></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              18/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-19">
+          <div class="inner">
+            
+            <header><h2>cheat</h2></header>
+            
+            
+            <section><p>cheat allows you to create and view interactive
+cheatsheets on the command-line. It was designed
+to help remind *nix system administrators of
+options for commands that they use frequently,
+but not frequently enough to remember</p>
+<p>LINKS:
+- <a href="https://github.com/chrisallenlane/cheat">GITHUB</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              19/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-20">
+          <div class="inner">
+            
+            <header><h2>google search</h2></header>
+            
+            
+            <section><p>googler is a power tool to Google (Web &amp; News)
+and Google Site Search from the command-line. It
+shows the title, URL and abstract for each
+result, which can be directly opened in a browser
+from the terminal. Results are fetched in pages
+(with page navigation). Supports sequential
+searches in a single googler instance</p>
+<p>LINKS:
+- <a href="https://github.com/jarun/googler">GITHUB</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              20/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-21">
+          <div class="inner">
+            
+            <header><h2>the Ultminate VIM Distro</h2></header>
+            
+            
+            <section><p>Turn VIM into an awesome IDE
+~~~</p>
+<p>~~~</p>
+<p>LINKS:
+- <a href="http://vim.spf13.com/">HOME</a>
+- <a href="https://github.com/spf13/spf13-vim">GITHUB</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              21/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-22">
+          <div class="inner">
+            
+            <header><h2>task warrior stuff</h2></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              22/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-23">
+          <div class="inner">
+            
+            <header><h2>life organization</h2></header>
+            
+            
+            <section><p>Org Mode - Organize Your Life In Plain Text!</p>
+<ul>
+<li>Text outlining and task management for Vim based</li>
+<li>
+<p>on Emacs’ Org-Mode.</p>
+</li>
+<li>
+<p>The idea for this plugin was born by listening
+to the Floss Weekly podcast introducing Emacs
+Org-Mode. Org-Mode has a lot of strong features
+like folding, views (sparse tree) and scheduling
+of tasks. These are completed by hyperlinks,
+tags, todo states, priorities aso.</p>
+</li>
+</ul>
+<p>LINKS:
+- <a href="http://orgmode.org/">Emacs OrgMode</a>
+- <a href="https://github.com/jceb/vim-orgmode">GITHUB</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              23/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-24">
+          <div class="inner">
+            
+            <header><h2>directory based aliases</h2></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              24/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-25">
+          <div class="inner">
+            
+            <header><h2>vimarks aliases</h2></header>
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              25/26
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: pyc.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-26">
+          <div class="inner">
+            
+            <header><h2>teleconsole</h2></header>
+            
+            
+            <section><p>Heard of teamviewer, think that, but for the
+console</p>
+<p>Teleconsole is a free service to share your
+terminal session with people you trust. Your
+friends can join via a command line via SSH
+or via their browser over HTTPS. Use this to
+ask for help or to connect to your own devices
+sitting behind NAT.</p>
+<p>LINKS:
+- <a href="https://www.teleconsole.com/">HOME</a>
+- <a href="https://github.com/gravitational/teleconsole">GITHUB</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href="pyc.md">pyc.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              26/26
             </aside>
           </footer>
         </div>
@@ -262,6 +979,137 @@ l                 - Lists all available bookmarks
         <th><a href="#slide2">DOTFILES</a></th>
         <td><a href="#slide2">2</a></td>
       </tr>
+      
+        
+        <tr id="toc-row-3" class="sub">
+          <th><a href="#slide3">dotbot</a></th>
+          <td><a href="#slide3">3</a></td>
+        </tr>
+        
+        <tr id="toc-row-4" class="sub">
+          <th><a href="#slide4">dotgit</a></th>
+          <td><a href="#slide4">4</a></td>
+        </tr>
+        
+      
+      
+      <tr id="toc-row-5">
+        <th><a href="#slide5">Development</a></th>
+        <td><a href="#slide5">5</a></td>
+      </tr>
+      
+        
+        <tr id="toc-row-6" class="sub">
+          <th><a href="#slide6">bash-git-prompt</a></th>
+          <td><a href="#slide6">6</a></td>
+        </tr>
+        
+        <tr id="toc-row-7" class="sub">
+          <th><a href="#slide7">bash-git-prompt</a></th>
+          <td><a href="#slide7">7</a></td>
+        </tr>
+        
+        <tr id="toc-row-8" class="sub">
+          <th><a href="#slide8">git-open</a></th>
+          <td><a href="#slide8">8</a></td>
+        </tr>
+        
+        <tr id="toc-row-9" class="sub">
+          <th><a href="#slide9">Liquid Prompt</a></th>
+          <td><a href="#slide9">9</a></td>
+        </tr>
+        
+        <tr id="toc-row-10" class="sub">
+          <th><a href="#slide10">Liquid Prompt</a></th>
+          <td><a href="#slide10">10</a></td>
+        </tr>
+        
+        <tr id="toc-row-11" class="sub">
+          <th><a href="#slide11">Word Docs/Resumes</a></th>
+          <td><a href="#slide11">11</a></td>
+        </tr>
+        
+        <tr id="toc-row-12" class="sub">
+          <th><a href="#slide12">Presentation</a></th>
+          <td><a href="#slide12">12</a></td>
+        </tr>
+        
+        <tr id="toc-row-13" class="sub">
+          <th><a href="#slide13">Presentation (Console)</a></th>
+          <td><a href="#slide13">13</a></td>
+        </tr>
+        
+        <tr id="toc-row-14" class="sub">
+          <th><a href="#slide14">Presentation (html5)</a></th>
+          <td><a href="#slide14">14</a></td>
+        </tr>
+        
+      
+      
+      <tr id="toc-row-15">
+        <th><a href="#slide15">Utilities</a></th>
+        <td><a href="#slide15">15</a></td>
+      </tr>
+      
+        
+        <tr id="toc-row-16" class="sub">
+          <th><a href="#slide16">navigation</a></th>
+          <td><a href="#slide16">16</a></td>
+        </tr>
+        
+        <tr id="toc-row-17" class="sub">
+          <th><a href="#slide17">transfer files</a></th>
+          <td><a href="#slide17">17</a></td>
+        </tr>
+        
+      
+      
+      <tr id="toc-row-18">
+        <th><a href="#slide18">Other CLI Things</a></th>
+        <td><a href="#slide18">18</a></td>
+      </tr>
+      
+        
+        <tr id="toc-row-19" class="sub">
+          <th><a href="#slide19">cheat</a></th>
+          <td><a href="#slide19">19</a></td>
+        </tr>
+        
+        <tr id="toc-row-20" class="sub">
+          <th><a href="#slide20">google search</a></th>
+          <td><a href="#slide20">20</a></td>
+        </tr>
+        
+        <tr id="toc-row-21" class="sub">
+          <th><a href="#slide21">the Ultminate VIM Distro</a></th>
+          <td><a href="#slide21">21</a></td>
+        </tr>
+        
+        <tr id="toc-row-22" class="sub">
+          <th><a href="#slide22">task warrior stuff</a></th>
+          <td><a href="#slide22">22</a></td>
+        </tr>
+        
+        <tr id="toc-row-23" class="sub">
+          <th><a href="#slide23">life organization</a></th>
+          <td><a href="#slide23">23</a></td>
+        </tr>
+        
+        <tr id="toc-row-24" class="sub">
+          <th><a href="#slide24">directory based aliases</a></th>
+          <td><a href="#slide24">24</a></td>
+        </tr>
+        
+        <tr id="toc-row-25" class="sub">
+          <th><a href="#slide25">vimarks aliases</a></th>
+          <td><a href="#slide25">25</a></td>
+        </tr>
+        
+        <tr id="toc-row-26" class="sub">
+          <th><a href="#slide26">teleconsole</a></th>
+          <td><a href="#slide26">26</a></td>
+        </tr>
+        
       
       
     </table>
