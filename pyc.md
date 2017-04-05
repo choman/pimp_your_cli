@@ -270,9 +270,13 @@ LINKS:
 ---
 ## directory based aliases
 
+aliases
+
 
 ---
 ## vimarks aliases
+
+v 
 
 ---
 ## teleconsole
