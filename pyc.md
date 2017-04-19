@@ -247,7 +247,23 @@ LINKS:
 ---
 ## tmsu
 
+yeah, find works but takes time.  locate is ok,
+but requires root.  But even directories won't
+organize perfectly.  Now command line file
+tagging, that's awesome
 
+~~~
+TMSU is a tool for tagging your files. It
+provides a simple command-line utility for
+applying tags and a virtual filesystem to give
+you a tag-based view of your files from any
+other program.
+
+~~~
+
+LINKS:
+- [HOME](https://tmsu.org/)
+- [GITHUB](https://github.com/oniony/TMSU)
 
 ---
 ## task warrior stuff
@@ -279,17 +295,6 @@ LINKS:
 - [GITHUB](https://github.com/jceb/vim-orgmode)
 
 ---
-## directory based aliases
-
-aliases
-
-
----
-## vimarks aliases
-
-v 
-
----
 ## teleconsole
 
 Heard of teamviewer, think that, but for the
@@ -307,4 +312,18 @@ sitting behind NAT.
 LINKS:
 - [HOME](https://www.teleconsole.com/)
 - [GITHUB](https://github.com/gravitational/teleconsole)
+
+---
+# What's Next
+
+---
+## directory based aliases
+
+aliases
+
+
+---
+## vimarks aliases
+
+v 
 
