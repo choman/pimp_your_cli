@@ -300,10 +300,20 @@ LINKS:
 ---
 ## download-sweeper
 
+A tool written in Python meant to help get rid of
+old downloads without running the risk of losing
+data that you need. download-sweeper's primary
+goal is to save the user precious disk space.
+
+download-sweeper is modifiable via commandline
+args or a YAML configuration file. Further,
+it integrates with systemd so that download
+cleanup can be performed automatically.
+
 
 LINKS:
 - [HOME](https://tmsu.org/)
-- [GITHUB](https://github.com/oniony/TMSU)
+- [GITHUB](https://github.com/brandonio21/download-sweeper)
 
 ---
 ## todo.txt
