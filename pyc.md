@@ -31,8 +31,6 @@ Links:
 - [Github](https://github.com/TheLocehiliosan/yadm)
 
 ---
-
-
 ## dotbot
 
 Dotbot slightly different. Currently no alternate
@@ -106,6 +104,29 @@ Links:
 ![bash git prompt](https://camo.githubusercontent.com/945fb4cf2370746492805f5b8fbc0c3c462e486f/68747470733a2f2f7261772e6769746875622e636f6d2f6e6f6a68616e2f6c697175696470726f6d70742f6d61737465722f64656d6f2e706e67)
 
 ---
+## tmux
+
+What is a terminal multiplexer? It lets you
+switch easily between several programs in one
+terminal, detach them (they keep running in the
+background) and reattach them to a different
+terminal.   Think a better screen
+
+Links:
+- [Home](https://tmux.github.io/)
+- [Github](https://github.com/tmux/tmux)
+
+---
+## byobu
+
+Very similar to tmux, but provides consistant
+profiles for both screen and tmux.  Now defaults
+to tmux.
+
+Links:
+- [Home](http://byobu.co/)
+
+---
 ## Word Docs/Resumes
 
 Create word docs and resumes usin your favorite
@@ -175,8 +196,6 @@ d <bookmark_name> - Deletes the bookmark
 l                 - Lists all available bookmarks
 
 ~~~
-
-
 
 ---
 ## transfer files
@@ -268,9 +287,14 @@ LINKS:
 ---
 ## classifier
 
+
+
 ---
 ## download-sweeper
 
+
+---
+## todo.txt
 
 ---
 ## task warrior stuff
