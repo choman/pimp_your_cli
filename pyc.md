@@ -158,6 +158,10 @@ Links:
 Or pipe your md file straight into mdp for console
 based presentation
 
+
+LINKS:
+- [GITHUB](https://github.com/visit1985/mdp)
+
 ---
 ## Presentation (html5)
 
@@ -196,6 +200,9 @@ d <bookmark_name> - Deletes the bookmark
 l                 - Lists all available bookmarks
 
 ~~~
+
+LINKS:
+- [GITHUB](https://github.com/huyng/bashmarks)
 
 ---
 ## transfer files
@@ -309,6 +316,24 @@ download-sweeper is modifiable via commandline
 args or a YAML configuration file. Further,
 it integrates with systemd so that download
 cleanup can be performed automatically.
+
+~~~
+download-sweeper considers downloads to be
+organized in three tiers:
+
+The Download Tier: Files that are freshly
+downloaded or accessed repeatedly from their
+downloaded location.
+
+The Archive Tier : Files that were downloaded
+long ago and not recently accessed but still
+may be accessed in the future. By default,
+these files are compressed.
+
+The Purge Tier : These files are ready to be
+deleted and are are considered to be never used.
+
+~~~
 
 
 LINKS:
