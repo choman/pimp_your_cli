@@ -294,8 +294,8 @@ file extension, moving the files into specific
 folders, like music, documents, images and so on.
 
 LINKS:
-- [HOME](https://tmsu.org/)
-- [GITHUB](https://github.com/oniony/TMSU)
+- [HOME](http://bhrigu.me/classifier/)
+- [GITHUB](https://github.com/bhrigu123/classifier)
 
 ---
 ## download-sweeper
