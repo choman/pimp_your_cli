@@ -287,11 +287,23 @@ LINKS:
 ---
 ## classifier
 
+Messy Folders!!!
 
+Classifier organizes a directory based on
+file extension, moving the files into specific
+folders, like music, documents, images and so on.
+
+LINKS:
+- [HOME](https://tmsu.org/)
+- [GITHUB](https://github.com/oniony/TMSU)
 
 ---
 ## download-sweeper
 
+
+LINKS:
+- [HOME](https://tmsu.org/)
+- [GITHUB](https://github.com/oniony/TMSU)
 
 ---
 ## todo.txt
@@ -304,6 +316,9 @@ that manages your TODO list from the command
 line. It is flexible, fast, and unobtrusive. It
 does its job then gets out of your way.
 
+LINKS:
+- [HOME](https://tmsu.org/)
+- [GITHUB](https://github.com/oniony/TMSU)
 
 ---
 ## life organization
