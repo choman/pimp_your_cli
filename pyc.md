@@ -395,6 +395,16 @@ LINKS:
 - [GITHUB](https://github.com/gravitational/teleconsole)
 
 ---
+## packer
+
+Build reproducable VMs from the command-line,
+from the makers of vagrant
+
+
+LINKS:
+- [HOME](https://www.packer.io)
+
+---
 # What's Next
 
 ---
