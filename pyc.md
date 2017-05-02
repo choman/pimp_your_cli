@@ -1,4 +1,10 @@
-# Before We Begin
+# Or the largest lightning talk
+
+##  Before we begin
+
+
+- inspired by 13,14,15 for 13, 14, 15
+- slides are not in best order
 
 - command line editor?
 - git and git services?
