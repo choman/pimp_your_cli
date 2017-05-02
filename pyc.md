@@ -1,3 +1,13 @@
+# Before We Begin
+
+- command line editor?
+- git and git services?
+
+- Please hold questions to end
+
+- Yes slides will be availble
+
+---
 # DOTFILES
 
 ## yadm
